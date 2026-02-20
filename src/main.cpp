@@ -36,12 +36,16 @@ void loop() {
     // TODO 6: Read digital value from touch sensor
     touchState = digitalRead(TOUCH_PIN);
 
-    // TODO 7:
-    // If touch detected (HIGH)
-    //     Print "Touch Detected"
-    // Else
-    //     Print "No Touch"
+    // TODO 7: Check touch condition
+    if (touchState == HIGH) {
+        Serial.println("Touch Detected");
+    } 
+    else {
+        Serial.println("No Touch");
+    }
 
+    Serial.println("------------------------------");
+    
     // TODO 8:
     // Add small delay (200–500ms)
 }
