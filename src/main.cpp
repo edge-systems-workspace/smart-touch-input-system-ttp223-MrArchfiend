@@ -10,11 +10,11 @@
  * and displays structured output via Serial Monitor.
  */
 
- // TODO 1:
- // Define touch sensor digital pin (Use pin 2)
+ // TODO 1: Define touch sensor digital pin (Use pin 2)
+const int TOUCH_PIN = 2;
 
- // TODO 2:
- // Create variable to store touch state
+// TODO 2: Create variable to store touch state
+int touchState = LOW;
 
 void setup() {
 
