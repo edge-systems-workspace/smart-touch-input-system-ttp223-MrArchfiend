@@ -1,14 +1,4 @@
 #include <Arduino.h>
-/**
- * @file main.ino
- * @brief Embedded Touch Detection System using TTP223
- * @author YOUR_NAME
- * @date YYYY-MM-DD
- *
- * @details
- * Reads digital touch input from TTP223 sensor
- * and displays structured output via Serial Monitor.
- */
 
  // TODO 1: Define touch sensor digital pin (Use pin 2)
 const int TOUCH_PIN = 2;
@@ -46,6 +36,6 @@ void loop() {
 
     Serial.println("------------------------------");
     
-    // TODO 8:
-    // Add small delay (200–500ms)
+    // TODO 8: Add small delay (300ms)
+    delay(300);
 }
